@@ -10,10 +10,11 @@ public class Teste {
 	//Atribuicao de valor ao objeto dentro da classe = nomedaconta.objeto =  valor; 
 	contaDoPaulo.saldo = 300;
 	
-	contaDoPaulo.titular = new cliente();
+	cliente paulo= new cliente();
 	
-	contaDoPaulo.titular.nome = "Paulo";
+	paulo.nome = "Paulo";
 	
+	contaDoPaulo.titular = paulo;
 	
 	
 	
